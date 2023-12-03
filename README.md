@@ -2,11 +2,11 @@
 
 ## My solutions in Kotlin
 
-Prerequisite, JDK v17
+Prerequisite, JDK 17
 
 ```
 ./gradlew build
 ```
 
 * Problems are run in test/
-* Solutions are in src/
+* Solutions are in main/
