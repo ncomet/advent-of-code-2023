@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Day1Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-03T14:23:06" hostname="m1pro-nico.home" time="0.03">
+  <properties/>
+  <testcase name="Should compute second sample()" classname="Day1Test" time="0.021"/>
+  <testcase name="Should compute first sample()" classname="Day1Test" time="0.001"/>
+  <testcase name="Should compute input sample()" classname="Day1Test" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
