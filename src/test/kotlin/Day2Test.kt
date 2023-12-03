@@ -18,19 +18,6 @@ class Day2Test {
     }
 
     @Test
-    fun `Should solve maxOfAllGames`() {
-        val maxGame = object {}.javaClass.classLoader
-            .getResourceAsStream("day2/sample1.txt")!!
-            .bufferedReader().lines()
-            .asSequence()
-            .map { it.toMaxGame() }
-            .toList()
-            .maxOfAllGames()
-
-        maxGame shouldBeEqual Game(red = 20, green = 13, blue = 15)
-    }
-
-    @Test
     fun `Should get sum of possible Ids given a Game objective on sample`() {
         val allGames = object {}.javaClass.classLoader
             .getResourceAsStream("day2/sample1.txt")!!

@@ -18,7 +18,7 @@ fun List<Game>.sumIdsCompliantTo(game: Game): Int =
 private fun Game.compliesTo(game: Game): Boolean =
     red <= game.red && green <= game.green && blue <= game.blue
 
-fun Iterable<Game>.maxOfAllGames(): Game =
+private fun Iterable<Game>.maxOfAllGames(): Game =
     reduce { game, nextGame ->
         game.copy(
             red = maxOf(game.red, nextGame.red),
